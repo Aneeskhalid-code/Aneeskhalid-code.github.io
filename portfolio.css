@@ -826,7 +826,7 @@ form button{
 } 
 
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .navbar{
         width: 300px;
         padding-left: 27%;
@@ -906,7 +906,9 @@ form button{
     font-size: 12px;
    }
    .portfolio-card-main{
+    width: 100%;
     margin: 0px;
+    margin-top: -40px;
    }
    
    .portfolio-card{
