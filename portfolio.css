@@ -648,6 +648,200 @@ form button{
     }
 }
 
+/* 
+@media screen and (max-width: 400px){
+    .navbar{
+        width: 300px;
+        padding-left: 27%;
+    }
+
+    .navbar h2 {
+    margin-left: -35%;
+    font-size: 10px;
+
+    }
+
+    .navbar a{
+    margin: 2.5%;
+    font-size: 10px;
+   }
+   .btn{
+    margin-right: 13px;
+    padding: 10px 2px;
+    font-size: 10px;
+    font-weight: 600;
+   }
+
+   .herosection{
+    width: 100%;
+    font-size: 13px;
+   }
+
+   #herobutton{
+    width: 54%;
+    font-size: 12px;
+    padding: 9px 2px;
+    margin-left: 3px;
+   }
+
+   .herosection-image{
+    width: 63%;
+    height: 63%;
+    margin-right: 15px;
+   }
+
+   .aboutme{
+    width: 100%;
+    font-size: 10px;
+   }
+   
+   .aboutme-img{
+    width: 63%;
+    height: 65%;
+    margin-right: 15px;
+   }
+
+   .aboutme-text button{
+    font-size: 10px;
+   }
+   #aboutme-btn{
+    font-size: 10px;
+   }
+   .skill-name h3{
+     font-size: 12px;
+   }
+
+   .skill{
+    margin: 0px;
+   }
+   .skill-card{
+    margin: 10px;
+   }
+   .skill-card p, .skill-card h4{
+    font-size: 10px;
+   }
+   .badge{
+    font-size: 11px;
+    border: 2px solid #6ec1ff;
+   }
+
+   .portfolio h3{
+    font-size: 12px;
+   }
+   .portfolio-card-main{
+    margin: 0px;
+   }
+   
+   .portfolio-card{
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+   }
+
+    .pic-badge{
+     width: 100%;
+    height: 150px;       
+    object-fit: cover;   
+    border-radius: 10px;
+    }
+ 
+    .pic-badge img{
+      image-rendering: auto;
+    }
+
+   .portfolio-card h4, .portfolio-card p{
+    font-size: 10px;
+   }
+
+   .portfolio-card a{
+    font-size: 10px;
+   }
+   
+   .service-heading{
+    font-size: 12px;
+   }
+
+   .service-heading2{
+    font-size: 13px;
+   }
+
+   .service-name{
+    padding: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+   }
+
+   .service-name h4{
+    font-size:12px ;
+   }
+
+   .service-name p{
+    font-size: 11px;
+   }
+
+   .contact-item{
+    font-size: 13px;
+   }
+   .contact-item h3{
+    font-size: 18px;
+   }
+
+   .contact-form{
+    width: 65%;
+    height: 90%;
+   }
+
+   form label{
+    font-size: 9px;
+   }
+
+   form input{
+    font-size: 11px;
+    padding: 8px;
+   }
+
+   form textarea{
+    font-size: 10px;
+   }
+   
+   form button{
+    font-size: 10px;
+   }
+   
+   .footer{
+    font-size: 11px;
+   }
+
+   .footer-upper-name{
+    font-size: 12px;
+   }
+
+   .footer-upper-name h3{
+    font-size: 15px;
+   }
+
+   .footer-upper-link h4{
+    font-size: 14px;
+   }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 400px){
     .navbar{
@@ -782,7 +976,7 @@ form button{
     font-size: 13px;
    }
    .contact-item h3{
-     font-size: 18px;
+    font-size: 18px;
    }
 
    .contact-form{
@@ -820,6 +1014,6 @@ form button{
    }
 
    .footer-upper-link h4{
-       font-size: 14px;
+    font-size: 14px;
    }
 }
