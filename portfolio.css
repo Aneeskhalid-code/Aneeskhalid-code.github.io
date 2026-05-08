@@ -729,6 +729,7 @@ form button{
     font-size: 12px;
    }
    .portfolio-card-main{
+    width: 100%;
     margin: 0px;
     margin-top: -30px;
    }
@@ -826,10 +827,20 @@ form button{
 } 
 
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 330px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        width: 107%;
+    }
+    
     .navbar{
-        width: 300px;
-        padding-left: 27%;
+        width: 69%;
+        max-width: 69%;
+        overflow-x: hidden;
     }
 
     .navbar h2 {
@@ -850,8 +861,9 @@ form button{
    }
 
    .herosection{
-    width: 100%;
+    width: 102%;
     font-size: 13px;
+    gap: 10px;
    }
 
    #herobutton{
@@ -882,6 +894,8 @@ form button{
     font-size: 10px;
    }
    #aboutme-btn{
+    margin: 0;
+    margin-left: 10px;
     font-size: 10px;
    }
    .skill-name h3{
@@ -902,8 +916,15 @@ form button{
     border: 2px solid #6ec1ff;
    }
 
+    .portfolio{
+    width: 109%;
+    height: 550px;
+    background: none;
+   }
+
    .portfolio h3{
     font-size: 12px;
+    margin-bottom: 18px;
    }
    .portfolio-card-main{
     width: 100%;
@@ -947,6 +968,7 @@ form button{
    .service-name{
     padding: 14px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-right: 15px;
    }
 
    .service-name h4{
@@ -955,6 +977,10 @@ form button{
 
    .service-name p{
     font-size: 11px;
+   }
+
+   .contact{
+    width: 114%;
    }
 
    .contact-item{
